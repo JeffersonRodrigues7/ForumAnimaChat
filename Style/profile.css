@@ -1,0 +1,100 @@
+/*-----------------------------------Geral-----------------------------------*/
+@font-face {
+    font-family: PokemonFont;
+    src: url('../fonts/Pokemon\ Solid.ttf');
+}
+
+body{
+    background-image: url('../imgs/_Fundo.jpg');
+}
+
+* {
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+    padding: 3px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(58, 55, 55);
+}
+
+
+/*--------------------------------------Fim Geral--------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*---------------------------------------Navbar---------------------------------------*/
+
+.navbar-style{
+    background-color: #8b8888;
+}
+
+.nav-brand{
+    margin: 5px; 
+}
+
+/*-----------------------------------Fim Navbar-----------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------Corpo meio(Perfil)-----------------------------------*/
+
+.list {
+    margin: 20px 0px 0px 0px;
+    height: 300px;
+}
+
+#profileImage{
+    margin: 5px 0px 10px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#textDescription{
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#middleBody{
+    font-family: Sans-Serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; 
+    height: 600px;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+
+
+/*-----------------------------------Fim Corpo meio(perfil)-----------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- Rodapé -----------------------------------------*/
+
+footer {
+    background: black;
+    margin-top: 10px;
+}
+
+footer p{
+    color: white;
+    padding: 50px 0px 5px 50px;
+}
+
+
+
+
+/*----------------------------------------- Fim Rodapé -----------------------------------------*/
